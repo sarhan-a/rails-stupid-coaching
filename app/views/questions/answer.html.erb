@@ -1,11 +1,13 @@
 <div class= "container">
-  <h1>Stupid Coaching in Rails</h1>
-  <div class= "card-white">
+  <h1>Stupid Coaching</h1>
+  <div class= "card-white d-flex mt-3 justify-content-between">
     <p> - <%= @question %><br>
     <em>-You</em>
   </div>
-  <div class= "card-yellow">
+  <div class= "card-yellow d-flex mt-3 justify-content-between">
     <p> - <%= @answer %><br>
     <em> - Your coach </em>
   </div>
+  <br>
+  <%= link_to "Ask a new question", '/ask' %>
 </div>

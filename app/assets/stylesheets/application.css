@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+ .card-white,
+ .card-yellow {
+  padding: 16px;
+  border-left: 8px solid;
+  border-color: lightgrey;
+ }
+
+ .card-white {
+  background-color: white;
+ }
+
+ .card-yellow {
+  background-color: lightyellow;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+ }
